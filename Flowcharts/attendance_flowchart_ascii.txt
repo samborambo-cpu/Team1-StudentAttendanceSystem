@@ -1,0 +1,54 @@
+STUDENT ATTENDANCE SYSTEM - SYSTEM FLOWCHART (text version)
+===========================================================
+
+                        ( START )
+                            |
+                            v
+              +-----------------------------+
+              |   Load / Initialize         |
+              |   Student Records           |
+              +-----------------------------+
+                            |
+                            v
+        +-------------------------------------------+
+   +--->|            DISPLAY MAIN MENU              |
+   |    |  1) Add Record        4) Update Status    |
+   |    |  2) Search Record     5) Summary Report   |
+   |    |  3) Display Records   6) Exit             |
+   |    +-------------------------------------------+
+   |                        |
+   |                        v
+   |                /  Enter choice  /
+   |               /     (1 - 6)     /
+   |                        |
+   |                        v
+   |                 < MENU CHOICE? >
+   |                        |
+   |   +--------+-----------+-----------+-----------+-----------+
+   |   | 1      | 2         | 3         | 4         | 5         | 6
+   |   v        v           v           v           v           v
+   |  ADD     SEARCH     DISPLAY     UPDATE      SUMMARY      ( EXIT )
+   |  RECORD  RECORD     RECORDS     STATUS      REPORT       PROGRAM
+   |   |        |           |           |           |
+   |   v        v           |           v           v
+   | /Input/  /Input/       |        /Input ID,/  Generate:
+   | /ID,Name,/ /ID/        |        /new status/ Total,Present,
+   | /Status/    |          |           |         Absent,Late
+   |   |         v          |           v           |
+   |   v     <Found?>       |        <Found?>       |
+   |  Add     |   |         |         |   |         |
+   |  to    Yes  No         |       Yes  No         |
+   |  list    |   |         |         |   |         |
+   |   |      v   v         |         v   v         |
+   |   |   Show  "Not       |      Update "Not      |
+   |   |   rec.  Found"     |      status  Found"   |
+   |   |      |   |         |         |   |         |
+   +---+------+---+---------+---------+---+---------+
+        (all paths return to the MAIN MENU until Exit is chosen)
+
+LEGEND
+------
+( ... )      Terminator (Start / Exit)
+/ ... /      Input / Output
+[ ... ]      Process / Action
+< ... >      Decision (Yes / No branch)

@@ -10,9 +10,10 @@ design, and GitHub setup only.)*
 🔗 **Repository:** https://github.com/samborambo-cpu/Team1-StudentAttendanceSystem
 
 ## Team Members
-- **Samuel Azize** — Project Manager / GitHub Coordinator
-- **Camilo Sequeira** — Documentation Manager
-- **Luis Monsalve** — Software Developer
+All members are **Software Developers**; each also holds a coordination role.
+- **Samuel Azize** — Software Developer & Project Manager / GitHub Coordinator
+- **Camilo Sequeira** — Software Developer & Documentation Manager
+- **Luis Monsalve** — Software Developer & Design / Technical Lead
 
 ## Project Description
 The Student Attendance System tracks attendance for a class of at least 25
@@ -36,11 +37,14 @@ accurate summary report on demand.
 - Provide a clear, menu-driven interface
 
 ## Assigned Roles
-| Member | Role | Responsibilities |
-|--------|------|------------------|
-| Samuel Azize | Project Manager / GitHub Coordinator | Coordinates the team, tracks progress, manages the repository and collaborators |
-| Camilo Sequeira | Documentation Manager | Maintains documentation and organizes project files |
-| Luis Monsalve | Software Developer | Owns the design and future implementation |
+Every team member is a **Software Developer** and will contribute to the future
+implementation. In addition, each member holds a coordination role:
+
+| Member | Roles | Responsibilities |
+|--------|-------|------------------|
+| Samuel Azize | Software Developer & Project Manager / GitHub Coordinator | Contributes to development; coordinates the team, tracks progress, manages the repository and collaborators |
+| Camilo Sequeira | Software Developer & Documentation Manager | Contributes to development; maintains documentation and organizes project files |
+| Luis Monsalve | Software Developer & Design / Technical Lead | Contributes to development; owns the system design (flowchart, program structure) and leads technical decisions |
 
 ## System Flowchart
 The full flowchart is in [`Flowcharts/attendance_flowchart.md`](Flowcharts/attendance_flowchart.md)

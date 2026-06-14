@@ -1,0 +1,31 @@
+flowchart TD
+    A([Start]) --> B[Load / Initialize<br/>Student Records]
+    B --> C[Display Main Menu]
+    C --> D[/Enter choice 1-6/]
+    D --> E{Menu Choice}
+
+    E -->|1 - Add Record| F[/Input Student ID,<br/>Name, Status/]
+    F --> F2[Add Record<br/>to List]
+    F2 --> C
+
+    E -->|2 - Search Record| G[/Input Student ID/]
+    G --> G2{Record Found?}
+    G2 -->|Yes| G3[Display Student<br/>Record]
+    G2 -->|No| G4[Show Record<br/>Not Found]
+    G3 --> C
+    G4 --> C
+
+    E -->|3 - Display Records| H[Display All<br/>Student Records]
+    H --> C
+
+    E -->|4 - Update Status| I[/Input Student ID,<br/>New Status/]
+    I --> I2{Record Found?}
+    I2 -->|Yes| I3[Update Attendance<br/>Status]
+    I2 -->|No| I4[Show Record<br/>Not Found]
+    I3 --> C
+    I4 --> C
+
+    E -->|5 - Summary Report| J[Generate Summary:<br/>Total, Present,<br/>Absent, Late]
+    J --> C
+
+    E -->|6 - Exit| K([Exit Program])

@@ -1,1 +1,18 @@
-Student Attendance System project documentation will be stored here.
+Student Attendance System
+
+Project Description:
+A system designed to track attendance for up to 25 students...
+
+Problem Statement:
+Manual attendance tracking is slow and error-prone...
+
+Project Goals:
+- Track attendance
+- Store student records
+- Generate summary report
+
+Inputs:
+Student ID, Name, Attendance Status
+
+Outputs:
+Attendance records and summary report

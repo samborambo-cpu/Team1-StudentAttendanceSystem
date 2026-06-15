@@ -27,12 +27,12 @@ students = [
 
 | Function | Purpose |
 |----------|---------|
-| `main()` | Starts the program and runs the main menu loop. |
+| `main()` | Creates and maintains the students list and pass it to other functions as needed. |
 | `display_menu()` | Prints the six menu options to the screen. |
 | `add_record()` | Asks for Student ID, Name, and Status and adds a new record. |
 | `search_record()` | Asks for a Student ID and displays that student's record (or "Not Found"). |
 | `display_records()` | Displays all student records in a readable list/table. |
-| `update_status()` | Finds a record by Student ID and changes its attendance status. |
+| `update_status()` | Finds a record by Student ID and updates its attendance status. |
 | `generate_report()` | Calculates and displays the summary report. |
 | `exit_program()` | Ends the program. |
 

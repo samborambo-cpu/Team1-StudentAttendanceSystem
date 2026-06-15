@@ -12,7 +12,10 @@ Project Goals:
 - Generate summary report
 
 Inputs:
-Student ID, Name, Attendance Status
+- Student ID
+- Name
+- Attendance Status
 
 Outputs:
-Attendance records and summary report
+- Attendance records
+- Summary report
